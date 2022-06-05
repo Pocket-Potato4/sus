@@ -6,7 +6,7 @@ local RickRoll = "Never Gonna Give You up, never gonna let you down, commencing 
 
 
 local Rickroll = {
-	[1] = "Hi"..Player.Name.."c: youve fallen for my trap",
+	[1] = "Hi "..Player.Name.." c: youve fallen for my trap",
 	[2] = "All"
 }
 

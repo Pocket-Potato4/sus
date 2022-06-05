@@ -1,0 +1,19 @@
+local Player = game:GetService("Players").LocalPlayer
+local TS = game:GetService("TeleportService")
+
+local RickRoll = "Never Gonna Give You up, never gonna let you down, commencing teleportation to earth..."
+
+
+
+local Rickroll = {
+	[1] = "Hi"..Player.Name.."c: youve fallen for my trap",
+	[2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(Rickroll))
+
+wait(3)
+
+Player:Kick(RickRoll)
+wait(5)
+TS:Teleport(536102540, Player)
